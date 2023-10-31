@@ -1,18 +1,16 @@
-.wrapping{
+.container{
   border:2px solid grey;
   border-radius:5px;
   background-color:rgb(203, 199, 199);
-  padding:5px;
-  margin:5px;
+  padding:20px;
+  margin:30px;
 }
 
-.App-header{
+.wrapping{
   border: 2px solid grey;
-  border-radius: 5px;
-  margin:20px;
-  background-color: lightblue;
-  width: 1202px;
-  height: 600px;
+  border-radius:5px;
+background-color: lightblue;
+padding:20px;
 }
 
 
