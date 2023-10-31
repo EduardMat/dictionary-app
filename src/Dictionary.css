@@ -1,3 +1,26 @@
 .Dictionary{
-    color: red;
+    color: grey;
+}
+
+
+
+
+
+  h3{
+    text-transform: capitalize;
+  }
+   
+
+
+
+.def{
+    color:grey;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 10px;
+    max-width: 600px;
+}
+
+strong{
+    color:blueviolet;
 }
