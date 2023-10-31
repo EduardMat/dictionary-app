@@ -6,21 +6,26 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-      <div className="wrapping">
-      <header className="App-header">
-        <img src ={logo} className="App-logo" alt="logo" width="400" height={220}/>
-        <br/>
-      
-      </header>
-      <main>
-
-        <Dictionary/>
-      </main>
-      <footer className="text-center">Coded by Sefora Noata 
-
-      </footer>
+        <div className="wrapping">
+          <header className="App-header">
+            <div className="title">
+              <h1>Dictionary SheCodes</h1>
+            </div>
+            <img
+              src={logo}
+              className="App-logo"
+              alt="logo"
+              width="400"
+              height={220}
+            />
+            <br />
+          </header>
+          <main>
+            <Dictionary />
+          </main>
+          <footer className="text-center">Coded by Sefora Noata</footer>
+        </div>
       </div>
-    </div>
     </div>
   );
 }
